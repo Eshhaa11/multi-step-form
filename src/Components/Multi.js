@@ -6,12 +6,12 @@ function Form () {
             email: "",
             phone: "",
             address: "",
-            city: ""
+            city: "",
           });
 
     return (
         <div>
-
+            
         </div>
          
     );
