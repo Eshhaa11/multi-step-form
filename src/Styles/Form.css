@@ -1,61 +1,93 @@
 body {
-    background-color:  #f4f6f8;
-
-}
-
-.form-cont {
+    background-color: #2e3440;
+    font-family: 'Segoe UI', sans-serif;
+    color: #eceff4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the full form */
+  .form-cont {
     width: 100%;
-    max-width: 450px;
-    margin: 4rem auto;
-    border-radius: 20px;
+    max-width: 480px;
+    margin: 64px auto;
     padding: 40px;
-    background: #ffffff;
-    font-family: sans-serif;
-}
-
-.form-cont h2 {
+    background: #3b4252;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Headings inside each step */
+  .form-cont h2 {
+    font-size: 25px;
     margin-bottom: 20px;
-    font-size: 30px;
-    color: #201E1F;
-}
-
-.form-cont input {
+    color: #eceff4;
+  }
+  
+  /* Input fields */
+  .form-cont input {
     width: 100%;
-    font-size: 16px;
     padding: 12px 15px;
     margin-bottom: 24px;
-    border: 2px solid #7cb1e5;
-    border-radius: 12px;
-    background: #f1f1f1;
-}
-
-.form-cont button {
-    font-size: 20px;
+    font-size: 16px;
+    border: 1px solid #88c0d0;
+    border-radius: 10px;
+    background: #4c566a;
+    color: #eceff4;
+    transition: border 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .form-cont input::placeholder {
+    color: #d8dee9;
+  }
+  
+  .form-cont input:focus {
+    outline: none;
+    border-color: #81a1c1;
+    background-color: #434c5e;
+  }
+  
+  /* Button styling */
+  .form-cont button {
+    padding: 12px 20px;
+    font-size: 16px;
     border: none;
     border-radius: 10px;
-    margin-right: 10px;
     cursor: pointer;
-}
-
-.form-cont button[type="submit"] {
-    background-color: #0077ff;
-    color: #fff;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
   }
-
+  
+  /* Primary (Next/Submit) */
+  .form-cont button[type="submit"] {
+    background-color: #81a1c1;
+    color: #2e3440;
+  }
+  
+  .form-cont button[type="submit"]:hover {
+    background-color: #5e81ac;
+  }
+  
+  
 .form-cont button[type="button"] {
-    background-color: #e0e0e0;
-    color: #333;
+    background-color: #d08770;
+    color: #2e3440;
 }
-
+  
+.form-cont button[type="button"]:hover {
+    background-color: #bf616a;
+}
+  
+  
 .form-cont ul {
     list-style-type: none;
     padding: 0;
     margin-top: 16px;
 }
   
-  .form-cont li {
+.form-cont li {
     margin-bottom: 10px;
     font-size: 16px;
-    color: #444;
+    color: #eceff4;
 }
   
