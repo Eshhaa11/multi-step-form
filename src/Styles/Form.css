@@ -22,4 +22,5 @@ body {
 .form-cont input {
     width: 100%;
     padding: 12px 15px;
+    margin-bottom: 24px;
 }
