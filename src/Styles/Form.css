@@ -36,3 +36,9 @@ body {
     margin-right: 10px;
     cursor: pointer;
 }
+
+.form-cont button[type="submit"] {
+    background-color: #0077ff;
+    color: #fff;
+  }
+
