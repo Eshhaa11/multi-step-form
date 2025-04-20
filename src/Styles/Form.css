@@ -45,5 +45,17 @@ body {
 .form-cont button[type="button"] {
     background-color: #e0e0e0;
     color: #333;
-  }
+}
+
+.form-cont ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 16px;
+}
+  
+  .form-cont li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #444;
+}
   
