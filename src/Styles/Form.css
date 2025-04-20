@@ -30,13 +30,13 @@ body {
 .form-cont input {
     width: 100%;
     padding: 12px 15px;
+    background: #4c566a;
+    color: #eceff4;
     margin-bottom: 24px;
     font-size: 16px;
     border: 1px solid #88c0d0;
     border-radius: 10px;
-    background: #4c566a;
-    color: #eceff4;
-    transition: border 0.3s ease, background-color 0.3s ease;
+
   }
   
 .form-cont input::placeholder {
