@@ -21,7 +21,9 @@ function Form () {
             <Step2 formData={formData} setFormData={setFormData} />,
             <Step3 formData={formData} setFormData={setFormData} />,
             <Step4 formData={formData} setFormData={setFormData} />,
-        ]
+            <Step5 formData={formData} />,
+        ];
+        
 
     return (
         <div>
