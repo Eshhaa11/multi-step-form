@@ -28,6 +28,12 @@ function Form () {
         const isLastStep = step === steps.length - 1;
         const isFirstStep = step === 0;
 
+
+        const next = () => {
+            if (!isLastStep) setStep(prev => prev + 1);
+          };
+
+          
     return (
         <div>
             
