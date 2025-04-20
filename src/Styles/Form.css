@@ -14,5 +14,6 @@ body {
 }
 
 .form-cont h2 {
+    margin-bottom: 20px;
     font-size: 30px;
 }
