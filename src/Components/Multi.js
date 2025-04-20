@@ -25,6 +25,9 @@ function Form () {
         ];
         
 
+        const isLastStep = step === steps.length - 1;
+        const isFirstStep = step === 0;
+
     return (
         <div>
             
