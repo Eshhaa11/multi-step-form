@@ -4,7 +4,7 @@ import Step2 from './Step2';
 import Step3 from './Step3';
 import Step4 from './Step4';
 import Step5 from './Step5';
-import './Form.css';
+import "../Styles/Form.css";
 
 function Form () {
         const [step, setStep] = useState(0);
