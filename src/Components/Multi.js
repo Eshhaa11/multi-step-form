@@ -18,6 +18,7 @@ function Form () {
 
         const steps = [
             <Step1 formData={formData} setFormData={setFormData} />,
+            <Step2 formData={formData} setFormData={setFormData} />,
         ]
 
     return (
