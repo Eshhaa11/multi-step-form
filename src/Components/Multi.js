@@ -16,6 +16,10 @@ function Form () {
             city: "",
           });
 
+        const steps = [
+            <Step1 formData={formData} setFormData={setFormData} />,
+        ]
+
     return (
         <div>
             
