@@ -7,6 +7,7 @@ import Step5 from './Step5';
 import './Form.css';
 
 function Form () {
+        const [step, setStep] = useState(0);
         const [formData, setFormData] = useState({
             name: "",
             email: "",
