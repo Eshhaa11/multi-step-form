@@ -48,11 +48,15 @@ function Form () {
             }
           };
 
-          
-    return (
-        <div>
-            
-        </div>
+
+          return (
+            <form onSubmit={handleSubmit} className="form-cont">
+              {steps[step]}
+              <div>
+                {!isFirstStep && <button type="button" onClick={back}>Back</button>}
+                <button type="submit">{isLastStep ? 'Submit' : 'Next'}</button>
+              </div>
+            </form>
          
     );
 };
