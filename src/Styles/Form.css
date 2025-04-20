@@ -58,15 +58,15 @@ body {
     margin-right: 10px;
   }
   
-  /* Primary (Next/Submit) */
-  .form-cont button[type="submit"] {
+
+.form-cont button[type="submit"] {
     background-color: #81a1c1;
     color: #2e3440;
-  }
+}
   
-  .form-cont button[type="submit"]:hover {
+.form-cont button[type="submit"]:hover {
     background-color: #5e81ac;
-  }
+}
   
   
 .form-cont button[type="button"] {
