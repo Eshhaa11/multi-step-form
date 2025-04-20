@@ -1,9 +1,10 @@
 body {
+    padding: 0;
     background-color: #2e3440;
     font-family: 'Segoe UI', sans-serif;
     color: #eceff4;
     margin: 0;
-    padding: 0;
+   
 }
   
   
@@ -37,15 +38,15 @@ body {
     transition: border 0.3s ease, background-color 0.3s ease;
   }
   
-  .form-cont input::placeholder {
+.form-cont input::placeholder {
     color: #d8dee9;
-  }
+}
   
-  .form-cont input:focus {
+.form-cont input:focus {
     outline: none;
     border-color: #81a1c1;
     background-color: #434c5e;
-  }
+}
   
 
 .form-cont button {
