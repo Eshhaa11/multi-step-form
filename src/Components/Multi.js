@@ -33,6 +33,11 @@ function Form () {
             if (!isLastStep) setStep(prev => prev + 1);
           };
 
+          const back = () => {
+            if (!isFirstStep) setStep(prev => prev - 1);
+          };
+
+          
           
     return (
         <div>
