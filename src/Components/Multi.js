@@ -11,9 +11,7 @@ function Form () {
         const [formData, setFormData] = useState({
             name: "",
             email: "",
-            phone: "",
-            address: "",
-            city: "",
+            password: "",
           });
 
         const steps = [
