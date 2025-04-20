@@ -12,6 +12,7 @@ function Form () {
             name: "",
             email: "",
             password: "",
+            age: "",
           });
 
         const steps = [
