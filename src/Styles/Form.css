@@ -28,3 +28,8 @@ body {
     border-radius: 12px;
     background: #1d1a1d;
 }
+
+.form-cont input:focus {
+    outline: none;
+
+}
