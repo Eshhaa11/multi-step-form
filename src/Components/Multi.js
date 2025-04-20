@@ -38,6 +38,16 @@ function Form () {
           };
 
           
+          const handleSubmit = (e) => {
+            e.preventDefault();
+            if (isLastStep) {
+              console.log('Form Data:', formData);
+              alert('Form submitted successfully!');
+            } else {
+              next();
+            }
+          };
+
           
     return (
         <div>
