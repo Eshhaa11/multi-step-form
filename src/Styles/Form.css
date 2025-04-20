@@ -4,10 +4,10 @@ body {
     color: #eceff4;
     margin: 0;
     padding: 0;
-  }
+}
   
-  /* Container for the full form */
-  .form-cont {
+  
+.form-cont {
     width: 100%;
     max-width: 480px;
     margin: 64px auto;
@@ -15,17 +15,17 @@ body {
     background: #3b4252;
     border-radius: 16px;
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
-  }
+}
   
-  /* Headings inside each step */
-  .form-cont h2 {
+ 
+.form-cont h2 {
     font-size: 25px;
     margin-bottom: 20px;
     color: #eceff4;
-  }
+}
   
-  /* Input fields */
-  .form-cont input {
+ 
+.form-cont input {
     width: 100%;
     padding: 12px 15px;
     margin-bottom: 24px;
@@ -54,7 +54,6 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     margin-right: 10px;
 }
   
