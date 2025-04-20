@@ -20,6 +20,7 @@ function Form () {
             <Step1 formData={formData} setFormData={setFormData} />,
             <Step2 formData={formData} setFormData={setFormData} />,
             <Step3 formData={formData} setFormData={setFormData} />,
+            <Step4 formData={formData} setFormData={setFormData} />,
         ]
 
     return (
